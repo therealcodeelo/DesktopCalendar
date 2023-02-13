@@ -29,8 +29,8 @@ namespace DesktopCalendar
         /// </summary>
         private void InitializeComponent()
         {
-            this.codeeloGradientPanel1 = new CodeeloUI.CodeeloGradientPanel();
-            this.codeeloGradientPanel2 = new CodeeloUI.CodeeloGradientPanel();
+            this.codeeloGradientPanel1 = new CodeeloUI.Controls.CodeeloGradientPanel();
+            this.codeeloGradientPanel2 = new CodeeloUI.Controls.CodeeloGradientPanel();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.dayBlank42 = new DesktopCalendar.DayBlank();
             this.dayBlank41 = new DesktopCalendar.DayBlank();
@@ -527,8 +527,8 @@ namespace DesktopCalendar
 
         #endregion
 
-        private CodeeloUI.CodeeloGradientPanel codeeloGradientPanel1;
-        private CodeeloUI.CodeeloGradientPanel codeeloGradientPanel2;
+        private CodeeloUI.Controls.CodeeloGradientPanel codeeloGradientPanel1;
+        private CodeeloUI.Controls.CodeeloGradientPanel codeeloGradientPanel2;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
         private DayBlank dayBlank1;
         private DayBlank dayBlank42;
